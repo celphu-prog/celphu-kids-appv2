@@ -1,4 +1,4 @@
-// FIX: Import React to use types like React.Dispatch and React.SetStateAction.
+
 import React, { useState, useEffect } from 'react';
 
 function getValue<T,>(key: string, initialValue: T | (() => T)): T {
